@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+        <title>Tweet Your Art</title>
+        
+        <link type="text/css" rel="stylesheet" media="screen" href="css/main.css"></link> 
+    </head>
+    <body>
+        <section id='tya-header'>
+        <h1>Express what you feel on the canvas</h1>
+
+        <!-- Twitter Integration 
+        <a 
+            href="https://twitter.com/share" class="twitter-share-button" 
+            data-text="Here is what I'm feeling" 
+            data-count="none"
+            data-via="tellmetheworld">Tweet</a>
+        -->
+
+        </section>
+        <canvas id='tya-sheet' width='1200' height='800'>
+            
+        </canvas>
+
+        <object id="tya-wacom-plugin" type="application/x-wacomtabletplugin">
+            <section id="tya-wacom-error">
+                <p>
+                Unfortunately, it seems that the wacom plugin is not supported on your client...
+                </p>
+            </section>
+        </object>
+
+        <!-- Twitter button integration 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        -->
+
+        <script src="js/art-drawer.js"></script>
+    </body>
+</html>

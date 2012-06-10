@@ -1,0 +1,13 @@
+html, body {
+    margin: 0 0;
+}
+
+body {
+    width: 100%;
+}
+
+#tya-sheet {
+    display: block;
+    margin: auto auto; 
+    border: solid lightgrey 4px;
+}
