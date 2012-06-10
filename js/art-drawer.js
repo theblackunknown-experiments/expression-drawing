@@ -7,7 +7,7 @@ var TweetYourArt = (function(doc){
         console.info("Draw from (" + start.x + ", " + start.y  + ") to (" + end.x + ", " + end.y + ")");
 
         painter.lineCap     = 'round';
-        painter.strokeWidth = brush.width;
+        painter.lineWidth   = brush.width;
         painter.strokeStyle = style;
 
         painter.beginPath();
